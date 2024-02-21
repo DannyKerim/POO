@@ -15,7 +15,7 @@ public class ejercicioResuelto4 {
         
         // Calculamos la edad de cada uno basándonos en las proporciones dadas
         edadAlberto = 2 * (edadJuan / 3);
-        edadAna = 4 * (4 / 3);
+        edadAna = 4 * (edadJuan / 3);
         edadMama = edadJuan + edadAlberto + edadAna;
 
         // Mostramos las edades
