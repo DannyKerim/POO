@@ -26,11 +26,11 @@ public class TrianguloRectangulo {
     // Metodo que determina el tipo de triangulo rectangulo
     public void DeterminarTipoTriangulo() {
         if ((base == altura) && (base == CalcularHipotenusa()) && (altura == CalcularHipotenusa()))
-            System.out.println("Es un triangulo equilatero"); // Todos sus lados son iguales
+            System.out.println("Es un triángulo equilátero"); // Todos sus lados son iguales
         else if ((base != altura) && (base != CalcularHipotenusa()) && (altura != CalcularHipotenusa()))
-            System.out.println("Es un triangulo escaleno"); // Todos sus lados son diferentes
+            System.out.println("Es un triángulo escaleno"); // Todos sus lados son diferentes
         else
-            System.out.println("Es un triangulo isosceles"); // De otra manera, es isosceles
+            System.out.println("Es un triángulo isósceles"); // De otra manera, es isosceles
     }
 }
 
